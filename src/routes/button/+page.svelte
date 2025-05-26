@@ -1,7 +1,5 @@
 <script>
   import Button from "$lib/components/Button.svelte";
-  import SlideUpText from "$lib/components/SlideUpText.svelte";
-  import RenderImage from "$lib/components/RenderImage.svelte";
   import Container from "$lib/views/Container/Container.svelte";
 </script>
 

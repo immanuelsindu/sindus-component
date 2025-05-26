@@ -3,8 +3,6 @@
   import { page } from "$app/stores";
   import Icon from "@iconify/svelte";
 
-  import Portal from "svelte-portal";
-  import { fade } from "svelte/transition";
   import ListMenu from "./ListMenu.svelte";
   import { onMount } from "svelte";
   import Tooltip from "$lib/components/Tooltip.svelte";
@@ -18,7 +16,8 @@
     { label: "Button", icon: "teenyicons:button-outline", route: "/button", iconSize: 22 },
     { label: "Text Slide Up", icon: "material-symbols:text-up-rounded", route: "/text-slide-up", iconSize: 22 },
     { label: "Modal", icon: "vaadin:modal-list", route: "/modal", iconSize: 18 },
-    { label: "Tooltip", icon: "majesticons:tooltip-line", route: "/tooltip", iconSize: 22 }
+    { label: "Tooltip", icon: "majesticons:tooltip-line", route: "/tooltip", iconSize: 22 },
+    { label: "Dropdown", icon: "bx:down-arrow", route: "/dropdown", iconSize: 22 }
   ];
 
   onMount(() => {
@@ -43,7 +42,6 @@
     </button>
 
     <!-- svelte-ignore a11y_interactive_supports_focus -->
-    <!-- onmouseenter={showTooltip} onmouseleave={hideTooltip} -->
     <div class="relative" role="button">
       <button
         bind:this={tooltipBtn}

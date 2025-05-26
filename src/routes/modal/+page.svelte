@@ -1,10 +1,8 @@
 <script>
-  import SlideUpText from "$lib/components/SlideUpText.svelte";
   import { fly } from "svelte/transition";
   import Icon from "@iconify/svelte";
   import Button from "$lib/components/Button.svelte";
   import Modal from "$lib/components/Modal.svelte";
-  import RenderImage from "$lib/components/RenderImage.svelte";
   import Container from "$lib/views/Container/Container.svelte";
 
   let openModal = false;
