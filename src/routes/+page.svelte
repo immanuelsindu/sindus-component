@@ -52,7 +52,7 @@
 </script>
 
 <div
-  class="min-h-[calc(100vh-48px)] bg-gradient-to-br from-[#FFE1E0] via-[#F49BAB] to-[#7F55B1] flex items-center justify-center p-6 overflow-hidden"
+  class="min-h-[calc(100%-48px)] bg-gradient-to-br from-[#FFE1E0] via-[#F49BAB] to-[#7F55B1] flex items-center justify-center p-6 overflow-hidden"
 >
   <div
     class="min-h-[360px] bg-white/80 backdrop-blur-md shadow-2xl rounded-3xl px-10 py-12 max-w-5xl w-full grid md:grid-cols-2 gap-12 animate-fade-in-up"
