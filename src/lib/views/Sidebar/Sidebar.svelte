@@ -17,7 +17,8 @@
     { label: "Text Slide Up", icon: "material-symbols:text-up-rounded", route: "/text-slide-up", iconSize: 22 },
     { label: "Modal", icon: "vaadin:modal-list", route: "/modal", iconSize: 18 },
     { label: "Tooltip", icon: "majesticons:tooltip-line", route: "/tooltip", iconSize: 22 },
-    { label: "Dropdown", icon: "bx:down-arrow", route: "/dropdown", iconSize: 22 }
+    { label: "Dropdown", icon: "bx:down-arrow", route: "/dropdown", iconSize: 22 },
+    { label: "Context Menu", icon: "bx:down-arrow", route: "/context-menu", iconSize: 22 }
   ];
 
   onMount(() => {

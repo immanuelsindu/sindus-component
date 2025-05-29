@@ -14,3 +14,19 @@ export function clickOutside(node) {
   };
 }
 
+export function clickContenxtMenuOutside(node) {
+  const handleClick = (e) => {
+    if (!node.contains(e.target)) {
+      node.dispatchEvent(new CustomEvent('outcontextmenu'));
+    }
+  }
+
+  document.addEventListener("contextmenu", handleClick, true);
+
+  return {
+    destroy() {
+      document.removeEventListener("contextmenu", handleClick, true);
+    }
+  };
+}
+
