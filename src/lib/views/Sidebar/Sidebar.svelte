@@ -20,7 +20,7 @@
     { label: "Modal", icon: "vaadin:modal-list", route: "/modal", iconSize: 18 },
     { label: "Tooltip", icon: "majesticons:tooltip-line", route: "/tooltip", iconSize: 22 },
     { label: "Dropdown", icon: "bx:down-arrow", route: "/dropdown", iconSize: 22 },
-    { label: "Context Menu", icon: "bx:down-arrow", route: "/context-menu", iconSize: 22 }
+    { label: "Context Menu", icon: "hugeicons:mouse-right-click-05", route: "/context-menu", iconSize: 24 }
   ];
 
   let sidebarWidth = $state(280);
